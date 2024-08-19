@@ -1,0 +1,39 @@
+ npx create-next-app my-dashboard
+    ty yes 
+    es yes 
+    tai yes 
+    dir yes 
+    app yes 
+    alias no
+
+app/dashboard/counter/page.tsx
+
+tailwindcomponents
+    https://www.creative-tim.com/twcomponents/component/dashboard-navigation
+
+
+    https://nextjs.org/docs/app/api-reference/components/image
+
+acepatar imagenes de terceros
+    next.config
+        const nextConfig = {
+            images: {
+                remotePatterns: [
+                    {
+                        protocol: 'https',
+                        hostname: 'https:images.unsplash.com'
+                    }
+                ]
+            }
+        };
+
+
+react iconos
+https://react-icons.github.io/react-icons/
+npm install react-icons --save
+
+si se pierden los estilos agregar en tailwind.config
+    "./src/**/*.{js,ts,jsx,tsx,mdx}"
+
+Redux
+    npm install @reduxjs/toolkit react-redux
